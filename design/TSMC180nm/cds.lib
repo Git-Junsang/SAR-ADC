@@ -1,0 +1,16 @@
+# File Created by  at Mon Feb 24 12:27:51 2025
+# assisted by CdsLibEditor
+# File Created by thai at Fri Oct  9 11:21:29 2020
+# assisted by CdsLibEditor
+
+INCLUDE $CDSHOME/share/cdssetup/dfII/cds.lib
+INCLUDE /opt/cad/foundry/TSMC018_2303_MUSE/PDK/Cadence_OA/t018cmsp018k3_1_0a/PDK/cds.lib
+
+
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+DEFINE avTech /tools/ASSURA41/tools/assura/etc/avtech/avTech
+

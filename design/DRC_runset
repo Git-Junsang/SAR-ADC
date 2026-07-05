@@ -1,0 +1,13 @@
+*drcRulesFile: /opt/cad/foundry/PDK_180nm/Calibre/DRC.rule
+*drcRunDir: /home/eee_20201111
+*drcLayoutPaths: Inverter.calibre.db
+*drcLayoutPrimary: Inverter
+*drcLayoutLibrary: ASIC_test
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: Inverter.drc.results
+*drcSummaryFile: Inverter.drc.summary
+*cmnRunHier: 0
+*cmnFDILayoutLibrary: ASIC_test
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: Inverter.def

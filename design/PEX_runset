@@ -1,0 +1,28 @@
+*pexRulesFile: /opt/cad/foundry/PDK_180nm/Calibre/LVS.rule
+*pexRunDir: /home/eee_20201111
+*pexLayoutPaths: Inverter.calibre.db
+*pexLayoutPrimary: Inverter
+*pexLayoutLibrary: ASIC_test
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: Inverter.src.net
+*pexSourcePrimary: Inverter
+*pexSourceLibrary: ASIC_test
+*pexSourceView: schematic
+*pexSourceGetFromViewer: 1
+*pexIncludeFiles: /opt/cad/foundry/PDK_180nm/Calibre/HL18G_L29_STD_6LM_typical.pex
+*pexReportFile: Inverter.lvs.report
+*pexPexNetlistFile: Inverter.pex.netlist
+*pexPexNetlistFormat: CALIBREVIEW
+*pexPexReportFile: Inverter.pex.report
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ASIC_test
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: Inverter.def

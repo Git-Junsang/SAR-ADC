@@ -1,0 +1,6 @@
+# File Created by donghyun at Sat Dec  2 14:00:47 2017
+# assisted by CdsLibEditor
+INCLUDE $CDSHOME/share/cdssetup/dfII/cds.lib
+DEFINE MPDK_HL18G /opt/cad/foundry/PDK_180nm/Pcell
+
+#Removed by ddDeleteObj: DEFINE CDAC /home/eee_20212332/CDAC

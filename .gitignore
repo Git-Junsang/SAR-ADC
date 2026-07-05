@@ -1,0 +1,42 @@
+# === Cadence Virtuoso 재생성 가능한 산출물 / 세션 잔여물 ===
+
+# Simulation run output (netlist + psf raw data) — ADE 세팅은 라이브러리에 보존됨
+simulation/
+
+# Logs & crash dumps
+CDS.log*
+libManager.log*
+cdsLibEditor.log
+panic.log.*
+.history
+
+# Lock files & OpenAccess 백업
+*.cdslck
+*.cdslck.*
+*.oa-
+*.oa.cdslck*
+
+# Cadence GUI / 세션 캐시
+.cadence/
+.config/
+
+# X11 auth cookie (절대 커밋 금지)
+.Xauthority
+
+# Synology NAS 메타데이터 (정크)
+@eaDir/
+*@SynoEAStream
+
+# === 파운드리/PDK 기밀 자산 — 절대 커밋/공개 금지 (로컬에는 유지) ===
+# 공정 테크놀로지 파일 (NSPL .tf 등)
+*.tf
+# 레이어 표시 정의 (PDK 동봉)
+display.drf
+*.drf
+# 파운드리 공정용 Calibre 셀맵 (최상위 calview.cellmap 은 analogLib용이라 유지됨)
+*_calview.cellmap
+# 파운드리 SPICE 모델 (혹시라도 로컬 복사될 경우)
+*.scs
+
+# === 제3자 저작권 문서 — 로컬 보관, 공개 저장소엔 제외 ===
+documents/papers/Razavi-*.pdf

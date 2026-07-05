@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("SWITCH" "TB_BSSW_2" "schematic" "spectre")
+descriptionText = "1.6 : 3.2\ncell cap : 98f F\n"

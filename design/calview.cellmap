@@ -1,0 +1,16 @@
+
+((p cap c)
+  (analogLib cap symbol)
+  (
+    (MINUS)
+    (PLUS)
+  )
+)
+
+((p res r)
+  (analogLib res symbol)
+  (
+    (MINUS)
+    (PLUS)
+  )
+)
